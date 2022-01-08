@@ -1,0 +1,12 @@
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\bin\Debug\DatabaseHomework-3.exe.config
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\bin\Debug\DatabaseHomework-3.exe
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\bin\Debug\DatabaseHomework-3.pdb
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework-3.csprojAssemblyReference.cache
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework_3.Form1.resources
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework_3.FormKayit.resources
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework_3.Properties.Resources.resources
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework_3.Yemekhane.resources
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework-3.csproj.GenerateResource.cache
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework-3.csproj.CoreCompileInputs.cache
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework-3.exe
+C:\Users\casper\source\repos\DatabaseHomework-3\DatabaseHomework-3\obj\Debug\DatabaseHomework-3.pdb
