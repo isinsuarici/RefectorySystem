@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseIslemleri.cs" />
+    <Compile Include="Depo-Satis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depo-Satis.Designer.cs">
+      <DependentUpon>Depo-Satis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,14 +65,56 @@
     <Compile Include="FormKayit.Designer.cs">
       <DependentUpon>FormKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Giris_Kayit_DB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticVeriler.cs" />
     <Compile Include="Yemekhane.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Yemekhane.Designer.cs">
       <DependentUpon>Yemekhane.cs</DependentUpon>
     </Compile>
+    <Compile Include="Yemekhaneye_Urun_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yemekhaneye_Urun_ekle.Designer.cs">
+      <DependentUpon>Yemekhaneye_Urun_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yemekhane_DB.cs" />
+    <Compile Include="YoneticiPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoneticiPaneli.Designer.cs">
+      <DependentUpon>YoneticiPaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetici_Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetici_Giris.Designer.cs">
+      <DependentUpon>Yonetici_Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetici_Kategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetici_Kategori.Designer.cs">
+      <DependentUpon>Yonetici_Kategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetici_Urun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetici_Urun.Designer.cs">
+      <DependentUpon>Yonetici_Urun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonetici_Yemekhane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetici_Yemekhane.Designer.cs">
+      <DependentUpon>Yonetici_Yemekhane.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Depo-Satis.resx">
+      <DependentUpon>Depo-Satis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +132,24 @@
     </Compile>
     <EmbeddedResource Include="Yemekhane.resx">
       <DependentUpon>Yemekhane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yemekhaneye_Urun_ekle.resx">
+      <DependentUpon>Yemekhaneye_Urun_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoneticiPaneli.resx">
+      <DependentUpon>YoneticiPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetici_Giris.resx">
+      <DependentUpon>Yonetici_Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetici_Kategori.resx">
+      <DependentUpon>Yonetici_Kategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetici_Urun.resx">
+      <DependentUpon>Yonetici_Urun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonetici_Yemekhane.resx">
+      <DependentUpon>Yonetici_Yemekhane.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

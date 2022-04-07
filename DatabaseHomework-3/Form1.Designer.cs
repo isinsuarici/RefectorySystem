@@ -30,16 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblID = new System.Windows.Forms.Label();
+            this.lblMail = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblGiris = new System.Windows.Forms.Label();
             this.btnGiris = new System.Windows.Forms.Button();
             this.lblKayitOl = new System.Windows.Forms.Label();
             this.pctExit = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pctYoneticiPanelineGit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctExit)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctYoneticiPanelineGit)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -54,14 +58,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lblID
+            // lblMail
             // 
-            this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(271, 209);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(21, 13);
-            this.lblID.TabIndex = 1;
-            this.lblID.Text = "ID:";
+            this.lblMail.AutoSize = true;
+            this.lblMail.Location = new System.Drawing.Point(261, 212);
+            this.lblMail.Name = "lblMail";
+            this.lblMail.Size = new System.Drawing.Size(37, 13);
+            this.lblMail.TabIndex = 1;
+            this.lblMail.Text = "e-mail:";
             // 
             // lblPassword
             // 
@@ -72,17 +76,18 @@
             this.lblPassword.TabIndex = 2;
             this.lblPassword.Text = "Şifre:";
             // 
-            // txtID
+            // txtMail
             // 
-            this.txtID.Location = new System.Drawing.Point(308, 209);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(141, 20);
-            this.txtID.TabIndex = 3;
+            this.txtMail.Location = new System.Drawing.Point(308, 209);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(141, 20);
+            this.txtMail.TabIndex = 3;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(308, 252);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(141, 20);
             this.txtPassword.TabIndex = 4;
             // 
@@ -97,6 +102,7 @@
             this.lblGiris.Size = new System.Drawing.Size(202, 42);
             this.lblGiris.TabIndex = 5;
             this.lblGiris.Text = "GİRİŞ YAP";
+            this.lblGiris.Click += new System.EventHandler(this.lblGiris_Click);
             // 
             // btnGiris
             // 
@@ -124,13 +130,44 @@
             // 
             this.pctExit.BackColor = System.Drawing.Color.Transparent;
             this.pctExit.Image = ((System.Drawing.Image)(resources.GetObject("pctExit.Image")));
-            this.pctExit.Location = new System.Drawing.Point(648, 36);
+            this.pctExit.Location = new System.Drawing.Point(651, 59);
             this.pctExit.Name = "pctExit";
             this.pctExit.Size = new System.Drawing.Size(82, 68);
             this.pctExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctExit.TabIndex = 8;
             this.pctExit.TabStop = false;
             this.pctExit.Click += new System.EventHandler(this.pctExit_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pctYoneticiPanelineGit);
+            this.panel1.Controls.Add(this.pctExit);
+            this.panel1.Controls.Add(this.lblKayitOl);
+            this.panel1.Controls.Add(this.btnGiris);
+            this.panel1.Controls.Add(this.lblGiris);
+            this.panel1.Controls.Add(this.txtPassword);
+            this.panel1.Controls.Add(this.txtMail);
+            this.panel1.Controls.Add(this.lblPassword);
+            this.panel1.Controls.Add(this.lblMail);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(759, 493);
+            this.panel1.TabIndex = 9;
+            // 
+            // pctYoneticiPanelineGit
+            // 
+            this.pctYoneticiPanelineGit.BackColor = System.Drawing.Color.Transparent;
+            this.pctYoneticiPanelineGit.Image = ((System.Drawing.Image)(resources.GetObject("pctYoneticiPanelineGit.Image")));
+            this.pctYoneticiPanelineGit.Location = new System.Drawing.Point(12, 21);
+            this.pctYoneticiPanelineGit.Name = "pctYoneticiPanelineGit";
+            this.pctYoneticiPanelineGit.Size = new System.Drawing.Size(116, 120);
+            this.pctYoneticiPanelineGit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctYoneticiPanelineGit.TabIndex = 9;
+            this.pctYoneticiPanelineGit.TabStop = false;
+            this.pctYoneticiPanelineGit.Click += new System.EventHandler(this.pctYoneticiPanelineGit_Click);
             // 
             // Form1
             // 
@@ -139,35 +176,31 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(757, 494);
-            this.Controls.Add(this.pctExit);
-            this.Controls.Add(this.lblKayitOl);
-            this.Controls.Add(this.btnGiris);
-            this.Controls.Add(this.lblGiris);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtID);
-            this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.lblID);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctExit)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctYoneticiPanelineGit)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.Label lblMail;
         private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblGiris;
-        private System.Windows.Forms.Button btnGiris;
-        private System.Windows.Forms.Label lblKayitOl;
-        private System.Windows.Forms.PictureBox pctExit;
+        public System.Windows.Forms.TextBox txtMail;
+        public System.Windows.Forms.TextBox txtPassword;
+        public System.Windows.Forms.Button btnGiris;
+        public System.Windows.Forms.Label lblKayitOl;
+        public System.Windows.Forms.PictureBox pctExit;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pctYoneticiPanelineGit;
     }
 }
 
